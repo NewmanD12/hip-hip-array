@@ -173,8 +173,11 @@ const students = [
   // Challenge 10 Code
 
   let students_copy = []
-  for(let x of students){
-    students_copy.push(x)
+
+  let counter_2 = 3
+  while(counter_2 < 11){
+    students_copy.push(students[counter_2])
+    counter_2 ++
   }
 
   for(let x of students_copy){
